@@ -1,0 +1,32 @@
+:root {
+  /* Colour system — Section 3 of the blueprint */
+  --bg: #150716;              /* Midnight plum — main background */
+  --bg-deep: #2A081B;         /* Dark maroon — deep section background */
+  --brand: #76123D;           /* Royal maroon — primary brand */
+  --gold: #E2A641;            /* Temple gold — accent */
+  --orange: #FF7A1A;          /* Sacred orange — highlight */
+  --magenta: #D43883;         /* Festival magenta — secondary glow */
+  --teal: #42D7C8;            /* Teal light — cool contrast */
+  --text: #FFF4E2;            /* Warm ivory — main text */
+  --muted: #D8C5D1;           /* Soft rose-grey — muted text */
+
+  /* Glass effect specification — Section 3 */
+  --glass: rgba(56, 20, 46, 0.45);
+  --glass-strong: rgba(56, 20, 46, 0.62);
+  --glass-border: rgba(255, 214, 145, 0.22);
+  --glass-border-hover: rgba(255, 214, 145, 0.48);
+  --radius: 24px;
+  --radius-sm: 18px;
+  --radius-lg: 28px;
+
+  /* Typography */
+  --font-display: 'Cormorant Garamond', 'Georgia', serif;
+  --font-body: 'Mulish', 'Segoe UI', sans-serif;
+
+  /* Layout */
+  --max-width: 1240px;
+  --header-height: 84px;
+
+  /* Motion */
+  --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
