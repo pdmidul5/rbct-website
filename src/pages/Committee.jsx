@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import PageBanner from '../components/PageBanner.jsx'
 import GlassCard from '../components/GlassCard.jsx'
 import { committee, committeeTerm, pastCommittees } from '../data/committee.js'
@@ -38,7 +39,7 @@ export default function Committee() {
           </div>
           <p className="section-lead" style={{ margin: '30px auto 0', textAlign: 'center' }}>
             For official enquiries, please use each role&rsquo;s club email address via the
-            <a href="/contact" style={{ color: 'var(--gold)' }}> Contact page</a> rather than personal contact details.
+            <Link to="/contact" style={{ color: 'var(--gold)' }}> Contact page</Link> rather than personal contact details.
           </p>
         </div>
       </section>
