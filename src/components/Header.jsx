@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
-import { Menu, X, Facebook, Instagram, Flower2 } from 'lucide-react'
+import { Menu, X, Facebook, Instagram } from 'lucide-react'
 
 const NAV_ITEMS = [
   { to: '/', label: 'Home' },
@@ -34,7 +34,9 @@ export default function Header() {
       <header className={`site-header ${scrolled || open ? 'scrolled' : ''}`}>
         <div className="container">
           <NavLink to="/" className="brand" onClick={() => setOpen(false)}>
-            <span className="brand-mark"><Flower2 aria-hidden="true" /></span>
+            <span className="brand-mark">
+              <img src="/rbct-website/favicon.jpeg" alt="Royal Bengal Club Tasmania logo" />
+            </span>
             <span className="brand-text">
               Royal Bengal Club
               <span className="full">Tasmania</span>

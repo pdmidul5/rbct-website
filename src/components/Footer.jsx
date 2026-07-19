@@ -9,7 +9,9 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-col footer-brand">
             <div className="brand">
-              <span className="brand-mark" style={{ width: 40, height: 40 }} />
+              <span className="brand-mark" style={{ width: 40, height: 40 }}>
+                <img src="/rbct-website/favicon.jpeg" alt="Royal Bengal Club Tasmania logo" />
+              </span>
               <span>Royal Bengal Club Tasmania</span>
             </div>
             <p>
